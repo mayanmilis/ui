@@ -1,0 +1,147 @@
+.open_sidebar_container {
+    // border: 1px solid red;
+    animation-name: open_sidebar;
+    animation-duration: 200ms;
+    animation-fill-mode: forwards;
+    position: absolute;
+    left: 0;
+    width: 50%;
+    height: 1352px;
+    background-color: #0e1a35;
+    hr {
+        width: 100%;
+        height: 2px;
+        background-color: hsla(250, 23%, 5%, 0.2);
+        border: none;
+    }
+    .logo_container {
+        border: 1px solid red;
+        display: flex;
+        align-items: center;
+        margin-left: 41px;
+        height: 119px;
+        background-repeat: no-repeat;
+        background-position: center;
+        .logo {
+            width: 182px;
+            height: 52px;
+            // border: 1px solid red;
+            background-image: url("../assets/Logo.png");
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    .item {
+        height: 100px;
+        width: 100%;
+        transition: 200ms;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        a {
+            text-decoration: none;
+        }
+        .active {
+            width: 10px;
+            height: 100px;
+            position: absolute;
+            left: 0;
+            background-color: #5584ff;
+        }
+        .inactive{
+            width: 10px;
+            height: 100px;
+            position: absolute;
+            left: 0;
+        }
+        .text {
+            width: 63px;
+            height: 100%;
+            margin-left: 15px;
+            color: #ffffff;
+            font-family: Roboto;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 48px;
+        }
+    }
+    .item:hover {
+        background-color: #122143;
+    }
+    .home {
+        width: 24px;
+        height: 21px;
+        margin-left: 51px;
+        background-size: cover;
+        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy6.png");
+    }
+    .workflow {
+        width: 24px;
+        height: 21px;
+        margin-left: 51px;
+        background-size: cover;
+        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy.png");
+    }
+    .statistics {
+        width: 24px;
+        height: 21px;
+        margin-left: 51px;
+        background-size: cover;
+        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy4.png");
+    }
+    .calendar {
+        width: 24px;
+        height: 21px;
+        margin-left: 51px;
+        background-size: cover;
+        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy1.png");
+    }
+    .users {
+        width: 24px;
+        height: 21px;
+        margin-left: 51px;
+        background-size: cover;
+        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy3.png");
+    }
+    .settings {
+        width: 24px;
+        height: 21px;
+        margin-left: 51px;
+        background-size: cover;
+        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy2.png");
+    }
+}
+
+@keyframes open_sidebar {
+    from {width: 0;}
+    to {width: 318px;}
+  }
+
+.close_sidebar_container {
+    height: 100vh;
+    width: 0;
+    // border: 1px solid red;
+    animation-name: close_sidebar;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+    display: none;
+    .logo {
+        // border: 1px solid blue;
+        height: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 500ms;
+    }
+    .item {
+        // border: 1px solid blue;
+        height: 100px;
+        transition: 500ms;
+        width: 100%;
+    }
+}
+
+@keyframes close_sidebar {
+    from {width: 200px;}
+    to {width: 0;}
+  }

@@ -1,0 +1,121 @@
+{
+    "tasks": [
+        {
+            "id": "1",
+            "title": "New website for Symu.com",
+            "date": "Fri Nov 22 2019 13:37:01 GMT+0200 (Israel Standard Time)"
+        },
+        {
+            "id": "2",
+            "title": "Free business PSD Template",
+            "date": "Tue Nov 19 2019 17:37:01 GMT+0200 (Israel Standard Time)"
+        },
+        {
+            "id": "3",
+            "title": "New logo for JCD.pl",
+            "date": "Mon Nov 25 2019 17:37:01 GMT+0200 (Israel Standard Time)"
+        },
+        {
+            "id": "4",
+            "title": "Free Icons Set vol.3",
+            "date": "Sat Nov 30 2019 17:37:01 GMT+0200 (Israel Standard Time)"
+        },
+        {
+            "id": "5",
+            "title": "Free Icons Set vol.3",
+            "date": "Sat Nov 30 2019 17:37:01 GMT+0200 (Israel Standard Time)"
+        }
+    ],
+    "messages": [
+        {
+            "id": "6",
+            "first_name": "Nina",
+            "last_name": "Jones",
+            "date": "Fri Nov 22 2019 13:37:01 GMT+0200 (Israel Standard Time)",
+            "message_content": "Hey You! It's me again :-) I attached new file",
+            "read": "false"
+        },
+        {
+            "id": "7",
+            "first_name": "James",
+            "last_name": "Smith",
+            "date": "Tue Nov 19 2019 17:37:01 GMT+0200 (Israel Standard Time)",
+            "message_content": "Good morning, you are fired!",
+            "read": "true"
+        },
+        {
+            "id": "8",
+            "first_name": "Nina",
+            "last_name": "Jones",
+            "date": "Mon Nov 25 2019 17:37:01 GMT+0200 (Israel Standard Time)",
+            "message_content": "Hey You! I attached some new PSD files for you to work on",
+            "read": "true"
+        },
+        {
+            "id": "9",
+            "first_name": "Nina",
+            "last_name": "Jones",
+            "date": "Sat Nov 30 2019 17:37:01 GMT+0200 (Israel Standard Time)",
+            "message_content": "Hello! Could You bring me coffee please?",
+            "read": "false"
+        }
+    ],
+    "activities": [
+        {
+            "id": "10",
+            "first_name": "Nina",
+            "last_name": "Jones",
+            "activity_description": "added a new project",
+            "project_name": "Free Ui Kit",
+            "date": "Fri Nov 22 2019 13:37:01 GMT+0200 (Israel Standard Time)"
+        },
+        {
+            "id": "11",
+            "first_name": "James",
+            "last_name": "Smith",
+            "activity_description": "commented project",
+            "project_name": "Free PSD Template",
+            "date": "Fri Nov 22 2019 13:37:01 GMT+0200 (Israel Standard Time)"
+        },
+        {
+            "id": "12",
+            "first_name": "Alex",
+            "last_name": "Clooney",
+            "activity_description": "completed task",
+            "project_name": "Symu Website",
+            "date": "Fri Nov 22 2019 13:37:01 GMT+0200 (Israel Standard Time)"
+        },
+        {
+            "id": "13",
+            "first_name": "Alexandra",
+            "last_name": "Spears",
+            "activity_description": "added a new project",
+            "project_name": "Free PSD Template",
+            "date": "Fri Nov 22 2019 13:37:01 GMT+0200 (Israel Standard Time)"
+        },
+        {
+            "id": "14",
+            "first_name": "Nina",
+            "last_name": "Jones",
+            "activity_description": "added a new project",
+            "project_name": "Free Ui Kit",
+            "date": "Fri Nov 22 2019 13:37:01 GMT+0200 (Israel Standard Time)"
+        },
+        {
+            "id": "15",
+            "first_name": "Nina",
+            "last_name": "Jones",
+            "activity_description": "added a new project",
+            "project_name": "Free Ui Kit",
+            "date": "Fri Nov 22 2019 13:37:01 GMT+0200 (Israel Standard Time)"
+        },
+        {
+            "id": "16",
+            "first_name": "Nina",
+            "last_name": "Jones",
+            "activity_description": "added a new project",
+            "project_name": "Free Ui Kit",
+            "date": "Fri Nov 22 2019 13:37:01 GMT+0200 (Israel Standard Time)"
+        }
+    ]
+}

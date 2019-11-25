@@ -1,0 +1,31 @@
+.home_container {
+    width: 100%;
+    height: 100%;
+    border: 1px solid green;
+    
+    .greeting {
+        padding-top: 178px;
+        width: 238px;
+        height: 37px;
+        color: #0e1a35;
+        font-family: Roboto;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 14.4px;
+        margin-left: 2.68%;
+    }
+    .graphs_container {
+        display: flex;
+        flex-direction: row;
+        padding-top: 42px;
+        border: 1px solid red;
+        padding-left: 2.68%;
+    }
+    .lists_container {
+        display: flex;
+        flex-direction: row;
+        padding-top: 42px;
+        border: 1px solid red;
+        padding-left: 2.68%;
+    }
+}
