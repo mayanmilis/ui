@@ -19,6 +19,7 @@
         font-size: 24px;
         font-weight: 500;
         line-height: 48px;
+        position: absolute;
     }
     .details_container {
         width: 80%;
@@ -61,3 +62,34 @@
         }
     }
 }
+
+@media (max-width: 1200px)  {
+    .activity_container {
+        .details_container {
+            .activity_header_container {
+                display: flex;
+                flex-direction: column;
+                // border: 1px solid red;
+                .name {
+                    width: 100%;
+                    // border: 1px solid red;
+                }
+            }
+        }
+    }
+  }
+  @media (max-width: 800px)  {
+    .activity_container {
+        .details_container {
+            .activity_header_container {
+                display: flex;
+                flex-direction: row;
+                // border: 1px solid red;
+                .name {
+                    width: auto;
+                    // border: 1px solid red;
+                }
+            }
+        }
+    }
+  }

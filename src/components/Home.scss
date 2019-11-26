@@ -1,8 +1,6 @@
 .home_container {
     width: 100%;
     height: 100%;
-    // border: 1px solid green;
-    
     .greeting {
         padding-top: 178px;
         width: 238px;
@@ -17,14 +15,35 @@
     .graphs_container {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         padding-top: 42px;
         // border: 1px solid red;
         padding-left: 2.68%;
+        padding-right: 2.68%;
     }
     .lists_container {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         padding-top: 42px;
-        // border: 1px solid red;
+        padding-left: 2.68%;
+        padding-right: 2.68%;
+    }
+}
+
+@media (max-width: 840px)  {
+    .home_container {
+        .graphs_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .lists_container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
     }
 }

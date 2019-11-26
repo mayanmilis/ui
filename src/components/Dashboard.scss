@@ -21,5 +21,39 @@
     position: relative;
     .content_container {
         height: 100%;
+        // border: 1px solid red;
+        display: flex;
+        justify-content: space-around;
+    }
+  }
+
+  @media (max-width: 840px)  {
+    .dashboard_container_open_sidebar {
+      display: flex;
+      flex-direction: column;
+      margin-left: 200px;
+      transition: 200ms;
+      width: 840px;
+      margin-left: 318px;
+      height: 100%;
+      // border: 1px solid red;
+      position: relative;
+      .content_container {
+          height: 100%;
+      }
+    }
+    .dashboard_container_close_sidebar {
+      display: flex;
+      flex-direction: column;
+      width: 840px;
+      height: 100%;
+      // border: 1px solid red;
+      position: relative;
+      .content_container {
+          height: 100%;
+          // border: 1px solid red;
+          display: flex;
+          justify-content: space-around;
+      }
     }
   }

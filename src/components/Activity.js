@@ -18,8 +18,7 @@ class Activity extends Component {
                 </div>
                 <div className="details_container">
                     <div className="activity_header_container">
-                        <div className="name">{ first_name }</div>
-                        <div className="name">{ last_name }</div>
+                        <div className="name">{ first_name } { last_name }</div>
                         <div className="activity_description">{ activity_description }</div>
                         <div className="project_name">{ project_name }</div>
                     </div>

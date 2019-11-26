@@ -11,7 +11,7 @@ class Header extends Component {
         return(
             <div className="header_container">
                 <div className="left">
-                    { sidebarOpen ? <div className="sidebar_open"></div> : "" }
+                    { sidebarOpen ? <div className="sidebar_open"></div> : <div className="sidebar_close"></div> }
                     <div className="hamburger" onClick={sidebarToggle}></div>
                     <div className="search"></div>
                 </div>

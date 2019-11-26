@@ -1,12 +1,12 @@
 .header_container {
-    border: 1px solid red;
+    // border: 1px solid red;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 120px;
-    border: 1px solid rgba(132, 146, 175, 0.3);
+    // border: 1px solid rgba(132, 146, 175, 0.3);
     background-color: #ffffff;
     position: absolute;
         .left {
@@ -18,6 +18,13 @@
                 width: 6px;
                 height: 12px;
                 background-image: url("../assets/Polygon\ 1\ kopia.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                margin-left: 24.6%;
+            }
+            .sidebar_close {
+                width: 6px;
+                height: 12px;
                 background-size: cover;
                 background-repeat: no-repeat;
                 margin-left: 24.6%;
@@ -114,4 +121,47 @@
                 margin-left: 2.6%;
             }
         }
+}
+@media (max-width: 1602px)  {
+    .header_container {
+        // border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        .left {
+            // border: 1px solid red;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+        }
+        .right {
+            display: flex;
+            justify-content: center;
+            // border: 1px solid red;
+            width: 70%;
+        }
+    }
+}
+
+@media (max-width: 840px)  {
+    .header_container {
+        // border: 1px solid red;
+        width: 840px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        // border: 1px solid red;
+        .left {
+            // border: 1px solid red;
+            width: 20%;
+            display: flex;
+            justify-content: center;
+        }
+        .right {
+            display: flex;
+            justify-content: center;
+            // border: 1px solid red;
+            width: 70%;
+        }
+    }
 }

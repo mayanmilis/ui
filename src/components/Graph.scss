@@ -1,7 +1,15 @@
 
 select {
-    width: 50%;
     border: none;
+    -webkit-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    width: 200px;
+    background-image: url("../assets/Inteligentny\ obiekt\ wektorowy\ kopia\ 9.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+    border: 1px solid red;
+    width: 50%;
     option {
         font-family: "Roboto Medium";
         font-weight: 500;
@@ -18,7 +26,8 @@ select {
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 48px;
+        margin-top: 41px;
+        justify-content: space-between;
         // border: 1px solid red;
         .select_container {
             display: flex;
@@ -28,7 +37,8 @@ select {
             align-items: center;
             justify-content: center;
             background-image: url("../assets/Rounded\ Rectangle\ 2\ copy\ 5\ kopia\ 2.png");
-            margin-left: 157px;
+            margin-right: 35px;
+
             .select_title {
                 color: #0e1a35;
                 font-family: Roboto;
@@ -61,7 +71,9 @@ select {
         display: flex;
         flex-direction: row;
         align-items: center;
-        height: 48px;
+        margin-top: 41px;
+        // border: 1px solid red;;
+        justify-content: space-between;
         .select_container {
             display: flex;
             flex-direction: row;
@@ -70,7 +82,7 @@ select {
             align-items: center;
             justify-content: center;
             background-image: url("../assets/Rounded\ Rectangle\ 2\ copy\ 5\ kopia\ 2.png");
-            margin-left: 587px;
+            margin-right: 35px;
             .select_title {
                 color: #0e1a35;
                 font-family: Roboto;
@@ -88,5 +100,19 @@ select {
             font-weight: 700;
             margin-left: 34px;
         }
+    }
+}
+
+@media (max-width: 840px)  {
+    .sales {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+    }
+    .report {
+        width: 90%;
+        margin: 0;
+        padding: 0;
+        margin-top: 42px;
     }
 }

@@ -2,6 +2,14 @@
   display: flex;
   flex-direction: row;
   background-color: #f6f7fa;
-  width: 1920px;
-  height: 1352px;
+  width: 100%;
+  height: 100%;
+  /* border: 1px solid blue; */
+}
+
+@media (max-width: 840px)  {
+  .app_container {
+    width: 840px;
+    height: 100%;
+  }
 }
