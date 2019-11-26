@@ -68,7 +68,7 @@ class Home extends Component {
                     <div className="graphs_container">
                         <Graph
                         type="sales"
-                        title="Sales"
+                        title="Your Sales"
                         />
                         <Graph
                         type="report"
