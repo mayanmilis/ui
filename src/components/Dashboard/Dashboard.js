@@ -2,13 +2,12 @@ import React, { Component } from 'react';
 import { Route, Redirect } from 'react-router-dom';
 import Header from './Header';
 import './Dashboard.scss';
-import Home from './Home';
+import Home from './Home/Home';
 
 class Dashboard extends Component {
 
     render() {
         const { sidebarToggle, sidebarOpen, current_component } = this.props;
-        console.log(current_component)
         if(!current_component) return <Redirect to="/home" />
         if(!sidebarOpen) {
             return(

@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import moment from 'moment';
 import './Home.scss';
-import Graph from './Graph';
-import List from './List';
+import Graph from './Graph/Graph';
+import List from './List/List';
 
 class Home extends Component {
     state ={
@@ -61,7 +61,6 @@ class Home extends Component {
         }
         else {
             let data = this.state.data;
-            console.log(this.state)
             return(
                 <div className="home_container">
                     <div className="greeting">Hello John!</div>

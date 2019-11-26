@@ -3,9 +3,6 @@ import moment from 'moment';
 import './Activity.scss';
 
 class Activity extends Component {
-    state ={
-
-    }
 
     render() {
         const { date, img, first_name, last_name, activity_description, project_name } = this.props;

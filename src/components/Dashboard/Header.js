@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './Header.scss';
 
 class Header extends Component {
-    state ={
-
-    }
 
     render() {
         const { sidebarToggle, sidebarOpen } = this.props;
@@ -17,8 +14,7 @@ class Header extends Component {
                 </div>
                 <div className="right">
                     <button className="add_project">
-                        <div>+</div>
-                        <div>Add project</div>
+                        <div>+ Add project</div>
                         </button>
                     <div className="message_icon"></div>
                     <div className="notifications">

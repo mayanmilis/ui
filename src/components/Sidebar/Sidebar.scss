@@ -1,5 +1,4 @@
 .open_sidebar_container {
-    // border: 1px solid red;
     animation-name: open_sidebar;
     animation-duration: 200ms;
     animation-fill-mode: forwards;
@@ -15,7 +14,6 @@
         border: none;
     }
     .logo_container {
-        // border: 1px solid red;
         display: flex;
         align-items: center;
         margin-left: 41px;
@@ -25,8 +23,7 @@
         .logo {
             width: 182px;
             height: 52px;
-            // border: 1px solid red;
-            background-image: url("../assets/Logo.png");
+            background-image: url("../../assets/Logo.png");
             background-repeat: no-repeat;
             background-position: center;
         }
@@ -73,42 +70,42 @@
         height: 21px;
         margin-left: 51px;
         background-size: cover;
-        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy6.png");
+        background-image: url("../../assets/Inteligentny\ obiekt\ wektorowy6.png");
     }
     .workflow {
         width: 24px;
         height: 21px;
         margin-left: 51px;
         background-size: cover;
-        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy.png");
+        background-image: url("../../assets/Inteligentny\ obiekt\ wektorowy.png");
     }
     .statistics {
         width: 24px;
         height: 21px;
         margin-left: 51px;
         background-size: cover;
-        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy4.png");
+        background-image: url("../../assets/Inteligentny\ obiekt\ wektorowy4.png");
     }
     .calendar {
         width: 24px;
         height: 21px;
         margin-left: 51px;
         background-size: cover;
-        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy1.png");
+        background-image: url("../../assets/Inteligentny\ obiekt\ wektorowy1.png");
     }
     .users {
         width: 24px;
         height: 21px;
         margin-left: 51px;
         background-size: cover;
-        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy3.png");
+        background-image: url("../../assets/Inteligentny\ obiekt\ wektorowy3.png");
     }
     .settings {
         width: 24px;
         height: 21px;
         margin-left: 51px;
         background-size: cover;
-        background-image: url("../assets/Inteligentny\ obiekt\ wektorowy2.png");
+        background-image: url("../../assets/Inteligentny\ obiekt\ wektorowy2.png");
     }
 }
 
@@ -120,13 +117,11 @@
 .close_sidebar_container {
     height: 100vh;
     width: 0;
-    // border: 1px solid red;
     animation-name: close_sidebar;
     animation-duration: 500ms;
     animation-fill-mode: forwards;
     display: none;
     .logo {
-        // border: 1px solid blue;
         height: 100px;
         display: flex;
         align-items: center;
@@ -134,7 +129,6 @@
         transition: 500ms;
     }
     .item {
-        // border: 1px solid blue;
         height: 100px;
         transition: 500ms;
         width: 100%;

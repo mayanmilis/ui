@@ -11,7 +11,6 @@ class List extends Component {
 
     render() {
         let { type, title, data, tasks_length, tasks_late, new_messages, activity_length } = this.props;
-        console.log(data)
         return(
             <div className="list">
                 <div className="header">

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Redirect } from "react-router-dom";
-import Dashboard from './components/Dashboard';
-import Sidebar from './components/Sidebar';
+import { BrowserRouter } from "react-router-dom";
+import Dashboard from './components/Dashboard/Dashboard';
+import Sidebar from './components/Sidebar/Sidebar';
 import './App.css';
 
 class App extends Component {
@@ -28,7 +28,6 @@ sidebarToggle = () => {
     })
 }
   render() {
-    console.log(this.state.current_component)
     if(!this.state.sidebarOpen) {
       return (
         <BrowserRouter>

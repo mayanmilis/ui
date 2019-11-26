@@ -2,9 +2,6 @@ import React, { Component } from 'react';
 import './Graph.scss';
 
 class Graph extends Component {
-    state ={
-
-    }
 
     render() {
         const { title, type } = this.props;
@@ -16,8 +13,6 @@ class Graph extends Component {
                         <div className="select_title">Period:</div>
                         <select>
                             <option value="0">Last Year</option>
-                            <option value="1">Last Year</option>
-                            <option value="2">Last Year</option>
                         </select>
                     </div>
                 </div>

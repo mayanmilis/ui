@@ -3,10 +3,9 @@
     flex-direction: column;
     margin-left: 200px;
     transition: 200ms;
-    width: 1602px;
     margin-left: 318px;
+    width: 100%;
     height: 100%;
-    // border: 1px solid red;
     position: relative;
     .content_container {
         height: 100%;
@@ -17,11 +16,9 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    // border: 1px solid red;
     position: relative;
     .content_container {
         height: 100%;
-        // border: 1px solid red;
         display: flex;
         justify-content: space-around;
     }
@@ -36,7 +33,6 @@
       width: 840px;
       margin-left: 318px;
       height: 100%;
-      // border: 1px solid red;
       position: relative;
       .content_container {
           height: 100%;
@@ -47,11 +43,9 @@
       flex-direction: column;
       width: 840px;
       height: 100%;
-      // border: 1px solid red;
       position: relative;
       .content_container {
           height: 100%;
-          // border: 1px solid red;
           display: flex;
           justify-content: space-around;
       }

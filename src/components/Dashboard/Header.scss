@@ -1,12 +1,11 @@
 .header_container {
-    // border: 1px solid red;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     height: 120px;
-    // border: 1px solid rgba(132, 146, 175, 0.3);
+    border-bottom: 1px solid rgba(132, 146, 175, 0.3);
     background-color: #ffffff;
     position: absolute;
         .left {
@@ -17,7 +16,7 @@
             .sidebar_open {
                 width: 6px;
                 height: 12px;
-                background-image: url("../assets/Polygon\ 1\ kopia.png");
+                background-image: url("../../assets/Polygon\ 1\ kopia.png");
                 background-size: cover;
                 background-repeat: no-repeat;
                 margin-left: 24.6%;
@@ -33,7 +32,7 @@
                 width: 24px;
                 height: 24px;
                 margin-left: 4.32%;
-                background-image: url("../assets/menu.png");
+                background-image: url("../../assets/menu.png");
             }
             .hamburger:hover {
                 cursor: pointer;
@@ -42,7 +41,7 @@
                 width: 24px;
                 height: 24px;
                 margin-left: 22.8%;
-                background-image: url("../assets/search.png");
+                background-image: url("../../assets/search.png");
             } 
         }
         .right {
@@ -55,18 +54,21 @@
                 height: 48px;
                 background-color: transparent;
                 border: none;
-                background-image: url("../assets/rounded\ Rectangle\ 2\ copy\ 5.png");
+                background-image: url("../../assets/rounded\ Rectangle\ 2\ copy\ 5.png");
                 display: flex;
                 flex-direction: row;
                 align-items: center;
                 justify-content: center;
+                color: #ffffff;
+                font-family: Roboto;
+                font-size: 18px;
+                font-weight: 700;
             }
             .message_icon {
                 width: 33px;
                 height: 23px;
-                background-image: url("../assets/messages.png");
+                background-image: url("../../assets/messages.png");
                 margin-left: 15%;
-                // background-color: #0e1a35;
             }
             .notifications {
                 display: flex;
@@ -75,7 +77,6 @@
                 width: 31px;
                 position: relative;
                 margin-left: 9%;
-                // border: 1px solid black;
                 .number {
                     width: 16px;
                     height: 16px;
@@ -100,13 +101,13 @@
                     position: absolute;
                     bottom: 0;
                     left: 0;
-                    background-image: url("../assets/Notifications.png");
+                    background-image: url("../../assets/Notifications.png");
                 }
             }
             .avatar {
                 width: 53px;
                 height: 53px;
-                background-image: url("../assets//photo-1444412667101-4eccfdeeff07.png");
+                background-image: url("../../assets//photo-1444412667101-4eccfdeeff07.png");
                 border-radius: 50%;
                 background-position: center;
                 background-size: cover;
@@ -117,19 +118,17 @@
                 height: 6px;
                 background-size: cover;
                 background-repeat: no-repeat;
-                background-image: url("../assets/polygon\ 1.png");
+                background-image: url("../../assets/polygon\ 1.png");
                 margin-left: 2.6%;
             }
         }
 }
 @media (max-width: 1602px)  {
     .header_container {
-        // border: 1px solid red;
         display: flex;
         flex-direction: row;
         align-items: center;
         .left {
-            // border: 1px solid red;
             width: 20%;
             display: flex;
             justify-content: center;
@@ -137,7 +136,6 @@
         .right {
             display: flex;
             justify-content: center;
-            // border: 1px solid red;
             width: 70%;
         }
     }
@@ -145,14 +143,11 @@
 
 @media (max-width: 840px)  {
     .header_container {
-        // border: 1px solid red;
         width: 840px;
         display: flex;
         flex-direction: row;
         align-items: center;
-        // border: 1px solid red;
         .left {
-            // border: 1px solid red;
             width: 20%;
             display: flex;
             justify-content: center;
@@ -160,7 +155,6 @@
         .right {
             display: flex;
             justify-content: center;
-            // border: 1px solid red;
             width: 70%;
         }
     }

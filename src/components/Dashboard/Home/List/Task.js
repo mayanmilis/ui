@@ -3,16 +3,12 @@ import moment from 'moment';
 import './Task.scss';
 
 class Task extends Component {
-    state ={
-
-    }
-
+    
     render() {
         const { title, date, img } = this.props;
         let late = moment(date).startOf('hour').fromNow().includes("ago");
         let image = img;
         image = false;
-        console.log(title)
         return(
             <div className="task_container">
                 <div className="img_container">

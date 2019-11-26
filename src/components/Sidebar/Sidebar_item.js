@@ -13,7 +13,6 @@ class Sidebar_item extends Component {
 
     render() {
         const { title, current_component, click, className } = this.props;
-        console.log(title, current_component)
         if(title.toLowerCase()===current_component) {
             return(
                 <div className="item" onClick={click}>

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './Item.scss';
 import Task from './Task';
 import Message from './Message';
 import Activity from './Activity';
@@ -11,7 +10,6 @@ class Item extends Component {
 
     render() {
         const { type, item } = this.props;
-        console.log(type)
         if(type==="Tasks") {
             return(
                 <div>

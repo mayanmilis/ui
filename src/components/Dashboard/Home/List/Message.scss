@@ -38,7 +38,7 @@
         height: 100%;
         background-position: center;
         background-size: cover;
-        background-image: url("../assets/photo-1441307811206-a12c74889338.png");
+        background-image: url("../../../../assets/photo-1441307811206-a12c74889338.png");
         border-radius: 50%;
     }
 }
@@ -53,7 +53,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    // border: 1px solid red;
     margin-left: 110px;
     .message_header_container {
         display: flex;
@@ -68,6 +67,7 @@
             font-family: "Roboto - Regular";
             font-weight: 400;
             letter-spacing: 0.2px;
+            margin-left: 10px;
         }
     }
     .body_container {
@@ -82,20 +82,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    // border: 1px solid red;
         .settings {
-            // border:1px solid red;
             width: 16px;
             height: 16px;
             background-color: transparent;
             border: none;
-            background-image: url("../assets/gear39\ \(1\).png");
+            background-image: url("../../../../assets/gear39\ \(1\).png");
         }
         .arrow {
             width: 18px;
             height: 14px;
             background-color: transparent;
             border: none;
-            background-image: url("../assets/Inteligentny\ obiekt\ wektorowy12.png");
+            background-image: url("../../../../assets/Inteligentny\ obiekt\ wektorowy12.png");
         }
 }
