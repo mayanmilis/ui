@@ -143,10 +143,10 @@
 
 @media (max-width: 840px)  {
     .header_container {
-        width: 840px;
+        width: 100%;
         display: flex;
         flex-direction: row;
-        align-items: center;
+        align-items: center; 
         .left {
             width: 20%;
             display: flex;
@@ -154,8 +154,24 @@
         }
         .right {
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             width: 70%;
+
+            .add_project {
+                margin: 0;
+            }
+            .message_icon {
+                margin: 0;
+            }
+            .notifications {
+                margin: 0;
+            }
+            .avatar {
+                margin: 0;
+            }
+            .arror_down {
+                margin: 0;
+            }
         }
     }
 }
