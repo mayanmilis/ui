@@ -3,9 +3,6 @@ import './Sidebar.scss';
 import Sidebar_item from './Sidebar_item';
 
 class Sidebar extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         let { className, current_component, current_component_function } = this.props;
