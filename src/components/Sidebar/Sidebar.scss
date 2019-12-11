@@ -151,3 +151,9 @@
     from {width: 200px;}
     to {width: 0;}
   }
+
+  @media (max-width: 1200px)  {
+    .open_sidebar_container {
+        height: auto;
+    }
+}
